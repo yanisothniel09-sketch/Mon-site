@@ -1,0 +1,28 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; 
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1a1e29; 
+}
+
+header {
+    text-align: center;
+    width: 100%;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 1.8rem; 
+    color: #ffffff;
+    letter-spacing: 2px; 
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}

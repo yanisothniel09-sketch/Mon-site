@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+
+    <div class="boite-formulaire">
+        <h2>Formulaire d'Inscription</h2>
+        
+        <form action="#" method="POST">
+            
+            <div class="case">
+                <label>Nom :</label>
+                <input type="text" name="nom" placeholder="Votre nom">
+            </div>
+
+            <div class="case">
+                <label>Prénom :</label>
+                <input type="text" name="prenom" placeholder="Votre prénom">
+            </div>
+
+            <div class="case">
+                <label>Adresse Email :</label>
+                <input type="email" name="email" placeholder="Votre email">
+            </div>
+
+            <div class="case">
+                <label>Mot de passe :</label>
+                <input type="password" name="mdp" placeholder="Votre mot de passe">
+            </div>
+
+            <div class="case">
+                <label>Âge :</label>
+                <input type="number" name="age" placeholder="Votre âge">
+            </div>
+
+            <div class="case">
+                <label>Filière d'étude :</label>
+                <select name="filiere">
+                    <option>Informatique de Gestion</option>
+                    <option>Sciences Économiques</option>
+                    <option>Autre filière</option>
+                </select>
+            </div>
+
+            <div class="case-choix">
+                <label>Sexe :</label>
+                <input type="radio" name="sexe" value="M"> Masculin
+                <input type="radio" name="sexe" value="F"> Féminin
+            </div>
+
+            <div class="case-choix">
+                <label>Loisirs préférés :</label>
+                <input type="checkbox" name="loisir1"> Manga / Anime <br>
+                <input type="checkbox" name="loisir2"> Programmation <br>
+                <input type="checkbox" name="loisir3"> Jeux Vidéo
+            </div>
+
+            <div class="case">
+                <label>Commentaire ou Message :</label>
+                <textarea name="message" rows="4" placeholder="Écrivez ici..."></textarea>
+            </div>
+
+            <div class="boutons">
+                <input type="reset" value="Tout effacer" class="btn-effacer">
+                <input type="submit" value="Valider" class="btn-valider">
+            </div>
+
+        </form>
+    </div>
+
+</body>
+</html>

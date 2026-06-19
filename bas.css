@@ -1,0 +1,42 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #1a1e29;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden; 
+}
+footer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 100%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.contacts span {
+    color: #70a1ff;
+    font-weight: 500;
+}
+
+.citation q {
+    font-style: italic;
+    color: #cbd5e1; 
+}
+
+.citation a {
+    color: #ff4757;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px dashed #ff4757;
+    transition: all 0.2s ease;
+}
+
+.citation a:hover {
+    color: #ff6b81;
+    border-bottom-style: solid;
+}
